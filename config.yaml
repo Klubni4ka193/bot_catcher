@@ -1,0 +1,19 @@
+threshold: 80
+
+weights:
+  no_photo: 15
+  random_username: 20
+  empty_bio: 10
+  missing_last_name: 10
+  username_matches_firstname: 10
+  hidden_status: 15
+  default_first_name: 20
+  no_username: 5
+
+limits:
+  max_subscribers: 10000
+  batch_size: 200
+
+output:
+  csv_file: "report.csv"
+  chart_file: "bot_distribution.png"
