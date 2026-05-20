@@ -1,0 +1,5 @@
+telethon==1.36.0
+pandas==2.2.2
+PyYAML==6.0.2
+python-dotenv==1.0.1
+matplotlib==3.9.0
