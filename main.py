@@ -7,7 +7,7 @@ import yaml
 
 from collector import TelegramCollector
 from features import extract_features
-from report import (
+from reporter import (
     print_summary,
     save_bot_distribution_chart,
     save_csv_report,
